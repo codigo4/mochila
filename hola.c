@@ -3,10 +3,14 @@
 
 int main(int argc, char *argv[])
 {
-  
-  printf("Hola que tranza\n");
-  printf("Cambio...");
-  
+int i=0,N=10;
+
+  for(i=0;i<N;i++)
+  {
+                    printf("Hola que tranza\n");
+  printf("Cambio...\n");
+}
+                  
   getch();
   return 0;
 }
